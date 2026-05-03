@@ -80,8 +80,8 @@ npm run dev
 ```
 
 ## Demo Credentials
-- **Admin**: admin@fooddelivery.com / admin123
-- **User**: john@example.com / password123
+- **Admin**: dhanrajshelke11@gmail.com / dhanraj@98
+- **User**: parththube11@gmail.com / Parth@9423
 
 ## Features
 - User registration & JWT authentication
