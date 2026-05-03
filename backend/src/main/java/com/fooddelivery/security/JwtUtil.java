@@ -14,10 +14,10 @@ import java.util.Map;
 @Component
 public class JwtUtil {
 
-    @Value("${jwt.secret}")
+    @Value("${jwt.secret:foodDeliverySecretKey2024VeryLongSecretKeyForJWTTokenGeneration}")
     private String secret;
 
-    @Value("${jwt.expiration}")
+    @Value("${jwt.expiration:86400000}")
     private Long expiration;
 
     private Key getSigningKey() {
