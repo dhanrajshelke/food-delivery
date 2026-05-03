@@ -1,5 +1,7 @@
 # FoodRush - Online Food Delivery App
 
+🚀 **Live Demo:** [https://food-delivery-nine-kohl.vercel.app](https://food-delivery-nine-kohl.vercel.app)
+
 Full-stack food delivery application built with Spring Boot + React.
 
 ## Tech Stack
