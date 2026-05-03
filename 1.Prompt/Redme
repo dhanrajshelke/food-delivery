@@ -1,0 +1,13 @@
+/// FOR BACKEND CMD
+set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_481
+set PATH=%JAVA_HOME%\bin;%PATH%
+cd C:\Users\DHANRAJ\Desktop\Project\food-delivery\backend
+mvn clean spring-boot:run
+
+
+/// FOR THE FRONTEND CMD
+cd C:\Users\DHANRAJ\Desktop\Project\food-delivery\frontend
+npm run dev
+
+
+

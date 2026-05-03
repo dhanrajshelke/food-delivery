@@ -1,0 +1,118 @@
+.hero {
+  background: linear-gradient(135deg, #e23744 0%, #fc8019 100%);
+  color: white;
+  padding: 72px 24px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 17px;
+  opacity: 0.9;
+  margin-bottom: 28px;
+}
+
+.search-bar {
+  display: flex;
+  max-width: 540px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 13px 20px;
+  font-size: 14px;
+  border: none;
+  color: #333;
+}
+
+.search-bar .btn-primary {
+  border-radius: 0 50px 50px 0;
+  padding: 13px 26px;
+  font-size: 14px;
+}
+
+/* Sections */
+.cuisines-section,
+.restaurants-section {
+  padding: 40px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cuisines-section h2,
+.restaurants-section h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.cuisine-chips {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cuisine-chip {
+  padding: 7px 18px;
+  background: white;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.cuisine-chip:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.restaurants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+.view-all {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.features {
+  background: white;
+  padding: 40px 24px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+  padding: 28px 16px;
+}
+
+.feature-card span { font-size: 36px; display: block; margin-bottom: 10px; }
+.feature-card h3 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.feature-card p { color: var(--gray); font-size: 13px; }
+
+@media (max-width: 600px) {
+  .hero { padding: 48px 16px; }
+  .hero-content h1 { font-size: 26px; }
+  .hero-content p { font-size: 15px; }
+  .search-bar { flex-direction: column; border-radius: 12px; }
+  .search-bar .btn-primary { border-radius: 0 0 12px 12px; }
+  .cuisines-section, .restaurants-section { padding: 28px 16px; }
+  .restaurants-grid { grid-template-columns: 1fr; gap: 16px; }
+}

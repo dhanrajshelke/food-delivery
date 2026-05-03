@@ -1,0 +1,34 @@
+.restaurant-list-page {
+  padding: 32px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.list-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 28px;
+  max-width: 480px;
+}
+
+.list-search input {
+  flex: 1;
+  padding: 10px 16px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.list-search input:focus { border-color: var(--primary); }
+
+.restaurants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+@media (max-width: 600px) {
+  .restaurant-list-page { padding: 24px 16px; }
+  .restaurants-grid { grid-template-columns: 1fr; gap: 16px; }
+}
